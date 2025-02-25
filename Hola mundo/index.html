@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hola mundo 5to tri</title>
+    <link rel="stylesheet" href="style.css">
+    <!--si haces este style solo se aplica a esta página, pero no a otras que estén viculadas-->
+    <style>
+        h3{color: #FF24CA}
+        
+    </style>
+
+</head>
+<body>
+    <h1>Encabezado</h1>
+    <h2>Otro encabezado</h2>
+    <h3>Otro otro encabezado¿</h3>
+    <p>Hola mundo!</p>
+
+    <p id="parr1">Este texto es amarillo</p>
+    <p class="centrar">Este texto esta centrado</p>
+    <h3>Este encabezado es rosa</h3><!--si pones igual un h3 en style.css, le va a hacer caso al último escrito-->
+    <p style="color: #00F0FF">Letras azules inline</p>
+
+    <button type="button"
+    onclick="document.getElementById('cosa').innerHTML = Date()">
+    Fecha y hora.</button>
+    <h1 id="cosa"></h1>
+
+    <script src="script.js"></script>
+</body>
+</html>
