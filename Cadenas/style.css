@@ -1,0 +1,9 @@
+/*selector de body fondo y selector de p de color */
+body{background-color: #f7caa5;}
+p{color:#803619; font-size: 20px; text-align: justify;}
+
+div{color:#f7caa5; font-size:30px; 
+    background-color:beige; 
+    padding: 20px; 
+    border: 10px solid rgb(224, 87, 41); 
+    margin: 20px;} /*modelo de caja, padding, boder & margin */
