@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.hola{
+    background-color: #add34e; 
+    font-size: 20px; 
+    padding: 10px; 
+    float: left; 
+    height:720px; /*esto es para forzar a que todas las columnas sean del mismo tamaño*/
+    width: 35%;} /* esta es una clase (por el .)  */
+    
+
+.cumple {
+    background-color:#e07dc3;
+    font-size: 20px; 
+    padding: 10px; 
+    float: left; 
+    height:720px;
+    width:35%;}
+
+.años {
+    background-color:#56AADD; 
+    font-size: 20px;
+    padding: 10px; 
+    float: left; 
+    height:720px;
+    width: 25%}
+    
+
+.alineado{
+    margin:auto;
+    width:100%;
+}
+
+
+@media screen and (max-width: 800px) {
+    .hola, .cumple, .años {
+        width: 100%;
+    }
+}
